@@ -10,14 +10,32 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name=".XRSizeAndroidActivity"
+            android:name=".Menu"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="me.xrsize.www.LOGIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RemoteDB"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="me.xrsize.www.REMOTEDB" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
     </application>
+    
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

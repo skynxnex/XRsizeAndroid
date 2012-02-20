@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, XRSizeAndroidActivity!</string>
+    <string name="hello">Logga in på XRSize.me</string>
     <string name="app_name">XRSizeAndroid</string>
+    <string name="user">Användarnamn</string>
+    <string name="pass">Lösenord</string>
+    <string name="login">Logga in</string>
+    <string name="databaseId">Databas id</string>
+    <string name="databaseName">Databas namnet</string>
+    <string name="databaseDate">Databas datumet</string>
+    <string name="databaseEname">Databas eventnamn</string>
+    <string name="databaseTime">Databas tid</string>
 
 </resources>
